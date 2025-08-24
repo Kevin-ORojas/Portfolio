@@ -9,7 +9,7 @@ function MainLayout() {
         <Sidebar />
       </div>
 
-      <main className="flex-1 p-4">
+      <main className="flex-1">
         <AppRoutes />
       </main>
     </div>
