@@ -4,7 +4,7 @@ import AppRoutes from "../routes/AppRoutes";
 
 function MainLayout() {
   return (
-    <div className="flex min-h-screen bg-[#0D0D0D]">
+    <div className="flex min-h-screen bg-[#0F172A]">
       <div>
         <Sidebar />
       </div>
