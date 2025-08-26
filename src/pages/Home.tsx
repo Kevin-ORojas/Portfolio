@@ -24,15 +24,15 @@ export default function Home() {
 
       <section className="absolute bottom-0 lg:bottom-1/8  lg:left-3/5 p-4 animate-pulse">
         <div
-          className="absolute inset-0 rounded-full 
-        border-4 border-transparent bg-gradient-to-r from-green-400 to-blue-500 bg-clip-border 
-        opacity-30 animate-pulse"
-        ></div>
-        <img
-          src={photo}
-          alt="kevin"
-          className="sm:w-[350px] lg:w-[450px] h-auto rounded-full"
-        />
+          className="rounded-full 
+        border-4 border-transparent bg-gradient-to-r from-green-400 to-blue-500  animate-pulse"
+        >
+          <img
+            src={photo}
+            alt="kevin"
+            className="sm:w-[350px] lg:w-[450px] h-auto rounded-full"
+          />
+        </div>
       </section>
     </main>
   );
