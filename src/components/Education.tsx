@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Education() {
   return (
     <div className="max-w-md p-[2px] rounded-2xl bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 shadow-[0_0_25px_5px_rgba(34,197,94,0.4)]">

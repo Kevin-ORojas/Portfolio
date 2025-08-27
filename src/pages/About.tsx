@@ -4,7 +4,7 @@ import Skills from "../components/Skills";
 
 export default function About() {
   return (
-    <section className="min-h-screen w-full flex flex-col   items-center bg-black text-white px-6 py-16">
+    <section className="min-h-screen w-full flex flex-col   items-center  text-white px-6 py-16">
       <h2 className="text-3xl sm:text-4xl font-bold mb-12 bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
         About Me
       </h2>
