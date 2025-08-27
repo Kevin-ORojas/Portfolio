@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <main className="flex justify-center items-center  min-h-screen w-full text-white">
       {/* Texto */}
-      <section className="  max-w-[750px] w-[800px]  p-4">
+      <section className="  max-w-[750px] lg:w-[800px]  p-4">
         <h1 className="font-['roboto'] text-xl sm:text-2xl mb-4">
           <span className="bg-gradient-to-r from-[#00FF88] via-[#00E0FF] to-[#7A00FF] bg-clip-text text-transparent text-2xl font-['Oleo_Script'] font-bold">
             Contactame

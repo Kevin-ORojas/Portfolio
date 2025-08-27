@@ -59,6 +59,19 @@ export default function Sidebar() {
               <span>Contact</span>
             </p>
           </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              `block px-4 py-4 mt-6 rounded hover:bg-indigo-200 ${
+                isActive
+                  ? "bg-indigo-500 text-white border-l-4 border-indigo-400"
+                  : ""
+              }`
+            }
+            to="project"
+          >
+            <p className="flex gap-4 items-center"></p>
+            <span>proyectos</span>
+          </NavLink>
         </section>
         <section className="mt-auto">
           <p className="border-b-2 w-full block self-stretch"></p>
